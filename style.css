@@ -113,31 +113,30 @@ img{
     margin: 0 5px 0 0;
 
 }
-.file_tabl_3{
-    margin: 1px 1px 20px 1px;
-
-}
 .search_area{
     padding-left: 40px;
-    background-image: url("search.gif");
     padding-top: 8px;
     padding-bottom: 8px;
     border-radius: 5px;
-    background: #444444;
+    background: #444444 url("search.gif");
     outline: none;
     border: 0;
     color: #efe5e5;
     width: 40%;
     float: right;
     margin-right: 5px;
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: left;
 
 }
 .name{
     width: 33%;
 }
-.search_icon{
-   padding-left: 200px;
-}
 .tb_3 tr td:nth-child(3){
-    padding-left: 350px;
+    padding-left: 320px;
+}
+.file_tabl_3{
+    display:flex;
+    align-items: center;
 }
